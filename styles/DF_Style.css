@@ -1,0 +1,154 @@
+label.Df-table-category
+{
+    font-weight:bold;
+}
+td.Df-table-category
+{
+    text-align: center;
+    background-color:AliceBlue;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+td.Df-table-head-values
+{
+     text-align: center;
+    background-color:AliceBlue;
+    padding-top:5px;
+    padding-bottom:5px;
+    
+}
+input.Df-table-head-values
+{
+    background-color: AliceBlue;
+    font-weight: bold;
+    border-color: transparent;
+    text-align: center;
+}
+table.Df-Definitions-List,
+tr.Df-Definitions-List,
+td.Df-Definitions-List
+{
+   border: 1px solid AliceBlue;
+   padding: 5px;
+   text-align: center;
+}
+td.Df-Definitions-List-Even
+{
+   border: 1px solid AliceBlue;
+   padding: 5px;
+   background-color: #dff8f9;
+   text-align: center;
+}
+input.Df-Button-Delete
+{
+    background-image:  url('/images/Edit.png');
+    border: none;
+    background-color: transparent;
+}
+div.Df-help-Div
+{
+    background-color: AliceBlue;
+    border: 1px solid Blue;
+    padding: 5px;
+    margin: 5px;
+    visibility:   hidden;
+    position:absolute;
+    width:150px;
+    color: black;
+}
+input.DF_ChosenLabel
+{
+    background-color: AliceBlue;
+    padding: 5px;
+    font-weight: bold;
+}
+input.DF_NotChosenLabel
+{
+     background-color:#bab6b6;
+     color: #808080;
+    padding: 5px;
+    font-weight: lighter;
+}
+input.DF_gradient   {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #050505;
+	padding: 3px 3px;
+	background: -moz-linear-gradient(
+		top,
+		#0088ff 0%,
+		#00e1ff);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#0088ff),
+		to(#00e1ff));
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+   cursor: pointer;
+}
+input.DF_gradient_disabled {
+  font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color:#808080;
+	padding: 3px 3px;
+	background: -moz-linear-gradient(
+		top,
+		#0088ff 0%,
+		#00e1ff);
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(#0088ff),
+		to(#00e1ff));
+	-moz-border-radius: 11px;
+	-webkit-border-radius: 11px;
+	border-radius: 11px;
+	border: 1px solid #000000;
+	-moz-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	-webkit-box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	box-shadow:
+		0px 1px 3px rgba(000,000,000,0.5),
+		inset 0px 0px 1px rgba(255,255,255,0.7);
+	text-shadow:
+		0px -1px 0px rgba(000,000,000,0.4),
+		0px 1px 0px rgba(255,255,255,0.3);
+   cursor: not-allowed;
+   visibility: hidden;
+   
+}
+
+.DF_datagrid table { border-collapse: collapse; text-align: left; width: 100%; } 
+.DF_datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background: #fff; overflow: hidden; border: 1px solid #006699; -webkit-border-radius: 11px; -moz-border-radius: 11px; border-radius: 11px; }
+.DF_datagrid table td, 
+.DF_datagrid table th { padding: 3px 10px; }
+.DF_datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; color:#FFFFFF; font-size: 15px; font-weight: bold; border-left: 1px solid #0070A8; } 
+.DF_datagrid table thead th:first-child { border: none; }
+.DF_datagrid table tbody td { color: #00496B; border-left: 1px solid #E1EEF4;font-size: 12px;font-weight: normal; }
+.DF_datagrid table tbody .alt td { background: #E1EEF4; color: #00496B; }
+.DF_datagrid table tbody td:first-child { border-left: none; }
+.DF_datagrid table tbody tr:last-child td { border-bottom: none; }
+.DF_datagrid table tfoot td div { border-top: 1px solid #006699;background: #E1EEF4;} 
+.DF_datagrid table tfoot td { padding: 0; font-size: 12px } 
+.DF_datagrid table tfoot td div{ padding: 2px; }
+.DF_datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }
+.DF_datagrid table tfoot  li { display: inline; }
+.DF_datagrid table tfoot li a { text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #FFFFFF;border: 1px solid #006699;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; }
+.DF_datagrid table tfoot ul.active, 
+.DF_datagrid table tfoot ul a:hover { text-decoration: none;border-color: #006699; color: #FFFFFF; background: none; background-color:#00557F;}
